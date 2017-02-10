@@ -15,6 +15,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 
+gem 'paperclip'
+gem 'aws-sdk', '~> 2'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'

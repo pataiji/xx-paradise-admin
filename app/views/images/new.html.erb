@@ -1,0 +1,4 @@
+<%= form_for @image, html: { multipart: true } do |form| %>
+  <%= form.file_field :data %>
+  <%= form.button :submit %>
+<% end %>
